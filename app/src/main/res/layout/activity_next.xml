@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc40c"
+    tools:context=".next">
+
+
+    <RadioGroup
+        android:id="@+id/tsgrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp">
+
+        <RadioButton
+            android:id="@+id/radioT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Teacher"
+            android:textAlignment="center"
+            android:textColor="#ff0000" />
+
+        <RadioButton
+            android:id="@+id/radioS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Student"
+            android:textAlignment="center"
+            android:textColor="#ff0000" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tsgrp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="30"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/tvS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tsgrp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Student Cannot give marks"
+        android:textAlignment="center"
+        android:textColor="#ff0000" />
+</RelativeLayout>
